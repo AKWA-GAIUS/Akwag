@@ -1,6 +1,5 @@
 import streamlit as st
 import pandas as pd
-import pickle  #to load a saved model
 import base64  #to open .gif files in streamlit app
 
 st.title("Akwa Visualization App For Daywise Dataset")
