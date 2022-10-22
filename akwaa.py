@@ -21,7 +21,7 @@ def get_value(val,my_dict):
 
 
 st.image("covidd.jpg")
-data=pd.read_csv("C:/Users/USER/OneDrive/Desktop/covid/day_wise.csv")
+data=pd.read_csv("day_wise.csv")
 numeric_columns = list(data.select_dtypes(['float', 'int']).columns)
 non_numeric_columns = list(data.select_dtypes(['object']).columns)
 non_numeric_columns.append(None)
